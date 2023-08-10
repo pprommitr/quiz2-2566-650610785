@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export const PostOwner = ({ picSrc, username, postText, likeNum }) => {
+export const PostOwner = ({ picSrc, username, posttext, likeNum }) => {
   return (
     <div className="vstack gap-3">
       <div className="d-flex align-items-center gap-3">
@@ -14,7 +14,7 @@ export const PostOwner = ({ picSrc, username, postText, likeNum }) => {
         <span className="fw-semibold fs-5">{username}</span>
       </div>
 
-      <span>{postText}</span>
+      <span>{posttext}</span>
 
       <div className="d-flex align-items-center gap-1">
         <img src="/like.svg" width={20}></img>

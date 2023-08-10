@@ -21,7 +21,7 @@ export default function HomePage() {
         <PostOwner
           picSrc="/profileImages/pin2 .jpg"
           username="Pinnaree Prommitr 650610785"
-          postText="Quiz ง่ายจังเลยครับ ขอยาก ๆ กว่านี้ได้ไหม #261207"
+          posttext="Quiz ง่ายจังเลยครับ ขอยาก ๆ กว่านี้ได้ไหม #261207"
           likeNum={100}
         />
 
